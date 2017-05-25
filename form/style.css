@@ -1,0 +1,222 @@
+@font-face {
+    font-family: HelveticaNeue; /* Гарнитура шрифта */
+    src: url(fonts/HelveticaNeue.ttf); /* Путь к файлу со шрифтом */
+   }
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-color: rgba(0, 0, 0, 0.2);
+	font-family: HelveticaNeue, sans-serif;
+	font-size: 14px;
+}
+
+.wrapper{
+	width: 1215px;
+	margin: 0 auto;
+}
+
+.header{
+	width: 1215px;
+	height: 36px;
+	background: url(img/header-bg.png) repeat-x;
+	text-align: right;
+}
+
+.menu{
+	display: inline-block;
+}
+
+.menu>li{
+	height: 36px;
+	list-style: none;
+	float: left;
+}
+
+.menu>li>a{
+	display: block;
+	text-decoration: none;
+    color: #60b5ed;
+    height: 36px;
+    padding: 0 15px;
+    line-height: 36px;
+}
+
+.menu>li>a:hover{
+	background-color: #4EABDA;
+	color: #fff;
+}
+
+.right-menu{
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.right-menu>li{
+	height: 36px;
+	list-style: none;
+	float: left;
+	line-height: 36px;
+}
+
+.left-li a{
+	display: block;
+	padding: 0 15px 0 5px;
+	text-decoration: none;
+	color: #fff;
+}
+
+.right-li{
+	padding: 0 15px;
+	color: #fff;
+	background: url(img/right-li.png) repeat-x;
+}
+
+.right-li a{
+	color: #fff;
+}
+
+.header img{
+	margin-bottom: 3px;
+}
+
+.content{
+	width: 1215px;
+	height: 1028px;
+	background-image: url(img/bg-img.jpg);
+	position: relative;
+}
+
+.my-form{
+	width: 560px;
+	height: 613px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -306px 0 0 -280px;
+	text-align: center;
+}
+
+.name{
+	height: 61px;
+	background: rgba(0, 0, 0, 0.63);
+}
+
+h2{
+	font-size: 24px;
+	color: #fff;
+	line-height: 61px;
+}
+
+.form{
+	width: 560px;
+	height: 550px;
+	margin: 2px auto 0;
+	background: rgba(0, 0, 0, 0.63);
+}
+
+.facebook{
+	width: 276px;
+	margin: 30px auto 0;
+}
+
+.for-facebook img:hover{
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.ou{
+	width: 276px;
+	color: #999999;
+	font-size: 14px;
+	margin: 25px auto;
+}
+
+.line{
+	width: 120px;
+	height: 1px;
+	background-color: #000;
+	border-top: 1px solid #666666;
+	display: inline-block;
+	margin-bottom: 4px;
+}
+
+input{
+	width: 260px;
+	height: 34px;
+	background-color: #000;
+	border: none;
+	border-bottom: 1px solid #494949;
+	margin-top: 15px;
+	font-size: 14px;
+	color: #ccc;
+	padding-left: 16px;
+}
+
+
+input:focus{
+	border: none;
+	border-bottom: 1px solid #494949;
+	background-color: #1b5288;
+	-webkit-box-shadow: 1px 1px 15px 2px rgba(255,255,255,0.7);
+	-moz-box-shadow: 1px 1px 15px 2px rgba(255,255,255,0.7);
+	box-shadow: 1px 1px 15px 2px rgba(255,255,255,0.7);
+	color: #ffffff;
+}
+
+input[type="checkbox"]:focus{
+	border: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+label{
+	position: relative;
+	color: #cccccc;
+	vertical-align: top;
+	right: 5px;
+	top: 14px;
+	line-height: 34px;
+}
+
+.checkbox{
+	width: 10px;
+	position: relative;
+	right: 10px;
+	vertical-align: top;
+	background: none;
+}
+
+.inp-form{
+	width: 276px;
+	margin: 0 auto;
+}
+
+.login{
+	margin-top: 0;
+}
+
+.submit{
+	width: 151px;
+	height: 37px;
+	background: url(img/button.png) no-repeat;
+	margin: 15px auto;
+	padding: 0;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover{
+	-webkit-box-shadow: 0 0 10px rgba(85,161,220,0.5);
+	        box-shadow: 0 0 10px rgba(85,161,220,0.5);
+}
+
+.form>span{
+	display: block;
+	color: #ccc;
+	width: 400px;
+	margin: 0 auto;
+}
