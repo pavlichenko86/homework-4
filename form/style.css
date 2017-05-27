@@ -13,24 +13,27 @@ body{
 	background: rgba(0, 0, 0, 0.2) url(img/bg-img.jpg) no-repeat 50% 36px;
 	font-family: HelveticaNeue, sans-serif;
 	font-size: 14px;
-}
-
-.header{
-	width: 1215px;
-	height: 36px;
-	background: url(img/header-bg.png) repeat-x;
-	text-align: right;
-	margin: 0 auto;
+	position: relative;
 }
 
 .menu{
-	display: inline-block;
+	width: 1216px;
+	height: 36px;
+	display: block;
+	background: url(img/header-bg.png) repeat-x;
+	margin: 0 auto;
+	position: absolute;
+	left: 50%;
+	top: 0;
+	transform: translateX(-50%);
 }
 
 .menu>li{
 	height: 36px;
 	list-style: none;
 	float: left;
+	position: relative;
+	left: 410px;
 }
 
 .menu>li>a{
@@ -70,17 +73,10 @@ li.active>a>span{
 	margin-bottom: 3px;
 }
 
-.content{
-	width: 1215px;
-	height: 1028px;
-	position: relative;
-	margin: 0 auto;
-}
-
 .my-form{
 	width: 560px;
 	height: 613px;
-	position: relative;
+	position: absolute;
 	top: 50%;
 	left: 50%;
 	/*margin: -306px 0 0 -280px;*/
