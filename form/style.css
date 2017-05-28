@@ -69,7 +69,6 @@ li.active>a>span{
 
 .my-form{
 	width: 560px;
-	height: 613px;
 	position: fixed;
 	top: 50%;
 	left: 50%;
@@ -79,7 +78,6 @@ li.active>a>span{
 }
 
 .name{
-	height: 61px;
 	background: rgba(0, 0, 0, 0.63);
 }
 
@@ -91,7 +89,6 @@ h2{
 
 .form{
 	width: 560px;
-	height: 550px;
 	margin: 2px auto 0;
 	background: rgba(0, 0, 0, 0.63);
 }
@@ -110,7 +107,7 @@ h2{
 	width: 276px;
 	color: #999999;
 	font-size: 14px;
-	margin: 25px auto;
+	margin: 15px auto;
 }
 
 .ou>span{
@@ -215,4 +212,8 @@ input[type="submit"]:hover{
 	color: #ccc;
 	width: 400px;
 	margin: 0 auto;
+}
+
+.form>span:last-child{
+	padding-bottom: 10px;
 }
